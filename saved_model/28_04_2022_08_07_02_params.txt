@@ -1,0 +1,228 @@
+data: ../data/MITOR_Data.mat
+w_from_matlab: False
+break_on: True
+using_mlp: False
+Input Dimension: 1289
+Hidden Dimension: 128
+rho 10
+lr for ADMM: 0.08
+lr for MLP: 0.01
+alpha: 0
+beta: 0.01
+tol_L: 0.001
+tor_r: 1e-05
+tol_s: 1e-05
+tol_r_s: 10.0
+ADI: 100
+Max_iteration: 1000
+
+C:\ProgramData\Anaconda3\envs\Incomplete_label_multi_task\python.exe C:/Users/tchowdh6/Documents/MITOR_SIMDA/Incomplete_label_multi_task/code/run_model.py
+Training Model
+L_break
+ADMM iteration: 1, Max iteration: 3, r-residual: 1.113507E-6, s-residual: 4.977679E-2, rho: 5.0, mze: 0.4813986122608185, mae: 0.9570629596710205, time taken 6.1455869000000005
+L_break
+ADMM iteration: 2, Max iteration: 3, r-residual: 3.585208E-6, s-residual: 3.923457E-2, rho: 2.5, mze: 0.4496503472328186, mae: 0.8935664296150208, time taken 5.121615199999999
+L_break
+ADMM iteration: 3, Max iteration: 3, r-residual: 8.714925E-6, s-residual: 2.432060E-2, rho: 1.25, mze: 0.4158042073249817, mae: 0.8258741497993469, time taken 5.591142100000001
+L_break
+ADMM iteration: 4, Max iteration: 4, r-residual: 2.375438E-5, s-residual: 1.703083E-2, rho: 0.625, mze: 0.37804195284843445, mae: 0.7503496408462524, time taken 6.698674099999998
+L_break
+ADMM iteration: 5, Max iteration: 5, r-residual: 6.043729E-5, s-residual: 1.110681E-2, rho: 0.3125, mze: 0.3339860141277313, mae: 0.6622377634048462, time taken 8.0265256
+L_break
+ADMM iteration: 6, Max iteration: 9, r-residual: 2.053680E-4, s-residual: 9.861909E-3, rho: 0.15625, mze: 0.2718881070613861, mae: 0.5380419492721558, time taken 14.051712799999997
+L_break
+ADMM iteration: 7, Max iteration: 15, r-residual: 6.313927E-4, s-residual: 8.117592E-3, rho: 0.078125, mze: 0.20307692885398865, mae: 0.40041959285736084, time taken 23.4841019
+L_break
+ADMM iteration: 8, Max iteration: 24, r-residual: 1.779732E-3, s-residual: 6.327365E-3, rho: 0.078125, mze: 0.13818182051181793, mae: 0.2706293761730194, time taken 37.71233319999999
+L_break
+ADMM iteration: 9, Max iteration: 21, r-residual: 1.686647E-3, s-residual: 5.324765E-3, rho: 0.078125, mze: 0.09986013919115067, mae: 0.19398601353168488, time taken 35.46575530000001
+L_break
+ADMM iteration: 10, Max iteration: 18, r-residual: 1.443431E-3, s-residual: 4.416271E-3, rho: 0.078125, mze: 0.07846153527498245, mae: 0.15118880569934845, time taken 29.60480910000001
+L_break
+ADMM iteration: 11, Max iteration: 16, r-residual: 1.267378E-3, s-residual: 3.807029E-3, rho: 0.078125, mze: 0.06545454263687134, mae: 0.12517482042312622, time taken 24.783012299999996
+L_break
+ADMM iteration: 12, Max iteration: 14, r-residual: 1.116810E-3, s-residual: 3.245189E-3, rho: 0.078125, mze: 0.058741260319948196, mae: 0.11174824833869934, time taken 22.324586100000005
+L_break
+ADMM iteration: 13, Max iteration: 12, r-residual: 9.744293E-4, s-residual: 2.722093E-3, rho: 0.078125, mze: 0.05482517555356026, mae: 0.10391608625650406, time taken 19.088343400000014
+L_break
+ADMM iteration: 14, Max iteration: 11, r-residual: 8.954841E-4, s-residual: 2.442597E-3, rho: 0.078125, mze: 0.05118881165981293, mae: 0.0966433584690094, time taken 17.17005980000002
+L_break
+ADMM iteration: 15, Max iteration: 9, r-residual: 7.606531E-4, s-residual: 1.969130E-3, rho: 0.078125, mze: 0.04867132753133774, mae: 0.09160839021205902, time taken 14.130378199999996
+L_break
+ADMM iteration: 16, Max iteration: 8, r-residual: 6.779494E-4, s-residual: 1.724893E-3, rho: 0.078125, mze: 0.04713286831974983, mae: 0.08853147178888321, time taken 12.512951900000019
+L_break
+ADMM iteration: 17, Max iteration: 7, r-residual: 6.017738E-4, s-residual: 1.490652E-3, rho: 0.078125, mze: 0.046293705701828, mae: 0.08685314655303955, time taken 10.740954199999976
+L_break
+ADMM iteration: 18, Max iteration: 6, r-residual: 5.245787E-4, s-residual: 1.264674E-3, rho: 0.078125, mze: 0.04601398482918739, mae: 0.08629370480775833, time taken 9.5105188
+L_break
+ADMM iteration: 19, Max iteration: 6, r-residual: 5.144100E-4, s-residual: 1.249264E-3, rho: 0.078125, mze: 0.04545454680919647, mae: 0.08517482876777649, time taken 9.313895800000012
+L_break
+ADMM iteration: 20, Max iteration: 5, r-residual: 4.457846E-4, s-residual: 1.032746E-3, rho: 0.078125, mze: 0.04433566331863403, mae: 0.08293706178665161, time taken 7.9399834999999825
+L_break
+ADMM iteration: 21, Max iteration: 4, r-residual: 3.653796E-4, s-residual: 8.213036E-4, rho: 0.078125, mze: 0.04391608387231827, mae: 0.08209790289402008, time taken 6.194473500000015
+L_break
+ADMM iteration: 22, Max iteration: 3, r-residual: 2.814062E-4, s-residual: 6.135810E-4, rho: 0.078125, mze: 0.04321678355336189, mae: 0.08069930225610733, time taken 4.637158600000021
+L_break
+ADMM iteration: 23, Max iteration: 3, r-residual: 2.673493E-4, s-residual: 6.099040E-4, rho: 0.078125, mze: 0.04293706268072128, mae: 0.08013986051082611, time taken 4.736221599999965
+L_break
+ADMM iteration: 24, Max iteration: 3, r-residual: 2.654661E-4, s-residual: 6.062668E-4, rho: 0.078125, mze: 0.04279720410704613, mae: 0.0798601433634758, time taken 4.721537600000033
+L_break
+ADMM iteration: 25, Max iteration: 3, r-residual: 2.658451E-4, s-residual: 6.026705E-4, rho: 0.078125, mze: 0.04251748323440552, mae: 0.07930070161819458, time taken 4.608419300000037
+L_break
+ADMM iteration: 26, Max iteration: 2, r-residual: 1.939539E-4, s-residual: 4.010563E-4, rho: 0.078125, mze: 0.042377620935440063, mae: 0.07902097702026367, time taken 3.1906548000000043
+L_break
+ADMM iteration: 27, Max iteration: 2, r-residual: 1.816010E-4, s-residual: 3.994769E-4, rho: 0.078125, mze: 0.04223776236176491, mae: 0.07874125987291336, time taken 3.0634900999999672
+L_break
+ADMM iteration: 28, Max iteration: 2, r-residual: 1.797282E-4, s-residual: 3.979083E-4, rho: 0.078125, mze: 0.04209790378808975, mae: 0.07846153527498245, time taken 3.1120181000000002
+L_break
+ADMM iteration: 29, Max iteration: 2, r-residual: 1.794730E-4, s-residual: 3.963526E-4, rho: 0.078125, mze: 0.0419580414891243, mae: 0.07818181812763214, time taken 3.0305172999999854
+L_break
+ADMM iteration: 30, Max iteration: 2, r-residual: 1.798357E-4, s-residual: 3.948069E-4, rho: 0.078125, mze: 0.04181818291544914, mae: 0.07790210098028183, time taken 3.1405851999999754
+L_break
+ADMM iteration: 31, Max iteration: 2, r-residual: 1.802854E-4, s-residual: 3.932735E-4, rho: 0.078125, mze: 0.04167832061648369, mae: 0.07762237638235092, time taken 3.1038299000000507
+L_break
+ADMM iteration: 32, Max iteration: 2, r-residual: 1.804862E-4, s-residual: 3.917507E-4, rho: 0.078125, mze: 0.04181818291544914, mae: 0.07790210098028183, time taken 3.1515181000000325
+L_break
+ADMM iteration: 33, Max iteration: 2, r-residual: 1.807662E-4, s-residual: 3.902391E-4, rho: 0.078125, mze: 0.04167832061648369, mae: 0.07762237638235092, time taken 3.135077200000012
+L_break
+ADMM iteration: 34, Max iteration: 2, r-residual: 1.812832E-4, s-residual: 3.887386E-4, rho: 0.078125, mze: 0.04181818291544914, mae: 0.07790210098028183, time taken 3.096966699999996
+L_break
+ADMM iteration: 35, Max iteration: 2, r-residual: 1.815328E-4, s-residual: 3.872495E-4, rho: 0.078125, mze: 0.04181818291544914, mae: 0.07790210098028183, time taken 3.1754388000000517
+L_break
+ADMM iteration: 36, Max iteration: 2, r-residual: 1.818589E-4, s-residual: 3.857704E-4, rho: 0.078125, mze: 0.04167832061648369, mae: 0.07762237638235092, time taken 3.081499400000041
+L_break
+ADMM iteration: 37, Max iteration: 2, r-residual: 1.821260E-4, s-residual: 3.843021E-4, rho: 0.078125, mze: 0.04153846204280853, mae: 0.07734265923500061, time taken 3.1309545999999955
+L_break
+ADMM iteration: 38, Max iteration: 2, r-residual: 1.824918E-4, s-residual: 3.828442E-4, rho: 0.078125, mze: 0.04139859974384308, mae: 0.0770629346370697, time taken 3.1389515000000188
+L_break
+ADMM iteration: 39, Max iteration: 2, r-residual: 1.827792E-4, s-residual: 3.813978E-4, rho: 0.078125, mze: 0.04139859974384308, mae: 0.0770629346370697, time taken 3.1245079999999916
+L_break
+ADMM iteration: 40, Max iteration: 2, r-residual: 1.831300E-4, s-residual: 3.799610E-4, rho: 0.078125, mze: 0.04111888259649277, mae: 0.07650349289178848, time taken 3.0749280999999655
+L_break
+ADMM iteration: 41, Max iteration: 2, r-residual: 1.834124E-4, s-residual: 3.785355E-4, rho: 0.078125, mze: 0.04083916172385216, mae: 0.07594405859708786, time taken 3.04544420000002
+L_break
+ADMM iteration: 42, Max iteration: 2, r-residual: 1.835504E-4, s-residual: 3.771195E-4, rho: 0.078125, mze: 0.04083916172385216, mae: 0.07594405859708786, time taken 3.2259881999999607
+L_break
+ADMM iteration: 43, Max iteration: 2, r-residual: 1.839362E-4, s-residual: 3.757144E-4, rho: 0.078125, mze: 0.04083916172385216, mae: 0.07594405859708786, time taken 3.217650600000013
+L_break
+ADMM iteration: 44, Max iteration: 2, r-residual: 1.841358E-4, s-residual: 3.743187E-4, rho: 0.078125, mze: 0.04055944085121155, mae: 0.07538461685180664, time taken 3.1502947000000177
+L_break
+ADMM iteration: 45, Max iteration: 2, r-residual: 1.843268E-4, s-residual: 3.729333E-4, rho: 0.078125, mze: 0.04041958227753639, mae: 0.07510489225387573, time taken 3.185647000000017
+L_break
+ADMM iteration: 46, Max iteration: 2, r-residual: 1.846985E-4, s-residual: 3.715578E-4, rho: 0.078125, mze: 0.04013986140489578, mae: 0.07454545795917511, time taken 3.069957699999975
+L_break
+ADMM iteration: 47, Max iteration: 2, r-residual: 1.849477E-4, s-residual: 3.701914E-4, rho: 0.078125, mze: 0.03999999910593033, mae: 0.0742657333612442, time taken 3.125324199999966
+L_break
+ADMM iteration: 48, Max iteration: 2, r-residual: 1.851268E-4, s-residual: 3.688361E-4, rho: 0.078125, mze: 0.03972027823328972, mae: 0.07370629161596298, time taken 3.160530699999981
+L_break
+ADMM iteration: 49, Max iteration: 2, r-residual: 1.851282E-4, s-residual: 3.674888E-4, rho: 0.078125, mze: 0.03986014053225517, mae: 0.07398601621389389, time taken 3.1631014000000164
+L_break
+ADMM iteration: 50, Max iteration: 2, r-residual: 1.855267E-4, s-residual: 3.661526E-4, rho: 0.078125, mze: 0.03972027823328972, mae: 0.07370629161596298, time taken 3.109937900000034
+L_break
+ADMM iteration: 51, Max iteration: 2, r-residual: 1.857597E-4, s-residual: 3.648247E-4, rho: 0.078125, mze: 0.03972027823328972, mae: 0.07370629161596298, time taken 3.1679942999999753
+L_break
+ADMM iteration: 52, Max iteration: 2, r-residual: 1.859039E-4, s-residual: 3.635068E-4, rho: 0.078125, mze: 0.03972027823328972, mae: 0.07370629161596298, time taken 3.3351798999999573
+L_break
+ADMM iteration: 53, Max iteration: 2, r-residual: 1.860245E-4, s-residual: 3.621978E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.1544920999999704
+L_break
+ADMM iteration: 54, Max iteration: 2, r-residual: 1.861763E-4, s-residual: 3.608985E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.0502958999999805
+L_break
+ADMM iteration: 55, Max iteration: 2, r-residual: 1.864255E-4, s-residual: 3.596074E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.1831502
+L_break
+ADMM iteration: 56, Max iteration: 2, r-residual: 1.865274E-4, s-residual: 3.583262E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.0549091000000317
+L_break
+ADMM iteration: 57, Max iteration: 2, r-residual: 1.867465E-4, s-residual: 3.570532E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.1425380999999675
+L_break
+ADMM iteration: 58, Max iteration: 2, r-residual: 1.867197E-4, s-residual: 3.557897E-4, rho: 0.078125, mze: 0.03958041965961456, mae: 0.07342657446861267, time taken 3.032045900000014
+L_break
+ADMM iteration: 59, Max iteration: 2, r-residual: 1.869651E-4, s-residual: 3.545349E-4, rho: 0.078125, mze: 0.03958041965961456, mae: 0.07342657446861267, time taken 3.0901114999999777
+L_break
+ADMM iteration: 60, Max iteration: 2, r-residual: 1.871019E-4, s-residual: 3.532885E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.0551335999999765
+L_break
+ADMM iteration: 61, Max iteration: 2, r-residual: 1.870604E-4, s-residual: 3.520512E-4, rho: 0.078125, mze: 0.03944056108593941, mae: 0.07314684987068176, time taken 3.1181629000000157
+L_break
+ADMM iteration: 62, Max iteration: 2, r-residual: 1.872578E-4, s-residual: 3.508217E-4, rho: 0.078125, mze: 0.03930069878697395, mae: 0.07286713272333145, time taken 3.08909349999999
+L_break
+ADMM iteration: 63, Max iteration: 2, r-residual: 1.872852E-4, s-residual: 3.496016E-4, rho: 0.078125, mze: 0.03930069878697395, mae: 0.07286713272333145, time taken 3.087851100000023
+L_break
+ADMM iteration: 64, Max iteration: 2, r-residual: 1.874069E-4, s-residual: 3.483889E-4, rho: 0.078125, mze: 0.0391608402132988, mae: 0.07258741557598114, time taken 3.101202100000023
+L_break
+ADMM iteration: 65, Max iteration: 2, r-residual: 1.874683E-4, s-residual: 3.471852E-4, rho: 0.078125, mze: 0.0391608402132988, mae: 0.07258741557598114, time taken 3.1824842999999987
+L_break
+ADMM iteration: 66, Max iteration: 2, r-residual: 1.874487E-4, s-residual: 3.459891E-4, rho: 0.078125, mze: 0.039020977914333344, mae: 0.07230769097805023, time taken 3.177044599999988
+L_break
+ADMM iteration: 67, Max iteration: 2, r-residual: 1.877009E-4, s-residual: 3.448010E-4, rho: 0.078125, mze: 0.039020977914333344, mae: 0.07230769097805023, time taken 3.277212700000007
+L_break
+ADMM iteration: 68, Max iteration: 2, r-residual: 1.877247E-4, s-residual: 3.436217E-4, rho: 0.078125, mze: 0.039020977914333344, mae: 0.07230769097805023, time taken 3.0754866000000334
+L_break
+ADMM iteration: 69, Max iteration: 2, r-residual: 1.876335E-4, s-residual: 3.424498E-4, rho: 0.078125, mze: 0.039020977914333344, mae: 0.07230769097805023, time taken 3.2296400999999832
+L_break
+ADMM iteration: 70, Max iteration: 2, r-residual: 1.877049E-4, s-residual: 3.412861E-4, rho: 0.078125, mze: 0.039020977914333344, mae: 0.07230769097805023, time taken 3.291047400000025
+L_break
+ADMM iteration: 71, Max iteration: 2, r-residual: 1.877869E-4, s-residual: 3.401298E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.222244200000034
+L_break
+ADMM iteration: 72, Max iteration: 2, r-residual: 1.877346E-4, s-residual: 3.389813E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.1206948999999895
+L_break
+ADMM iteration: 73, Max iteration: 2, r-residual: 1.876577E-4, s-residual: 3.378406E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.175386899999978
+L_break
+ADMM iteration: 74, Max iteration: 2, r-residual: 1.877781E-4, s-residual: 3.367077E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.046332100000029
+L_break
+ADMM iteration: 75, Max iteration: 2, r-residual: 1.876906E-4, s-residual: 3.355821E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.21201769999999
+L_break
+ADMM iteration: 76, Max iteration: 2, r-residual: 1.877036E-4, s-residual: 3.344638E-4, rho: 0.078125, mze: 0.038741257041692734, mae: 0.07174824923276901, time taken 3.1981161000000498
+L_break
+ADMM iteration: 77, Max iteration: 2, r-residual: 1.876265E-4, s-residual: 3.333527E-4, rho: 0.078125, mze: 0.03860139846801758, mae: 0.0714685320854187, time taken 3.2600075999999945
+L_break
+ADMM iteration: 78, Max iteration: 2, r-residual: 1.877434E-4, s-residual: 3.322493E-4, rho: 0.078125, mze: 0.03832167759537697, mae: 0.07090909034013748, time taken 3.0344890999999734
+L_break
+ADMM iteration: 79, Max iteration: 2, r-residual: 1.875731E-4, s-residual: 3.311528E-4, rho: 0.078125, mze: 0.03832167759537697, mae: 0.07090909034013748, time taken 3.1386109000000033
+L_break
+ADMM iteration: 80, Max iteration: 2, r-residual: 1.876215E-4, s-residual: 3.300643E-4, rho: 0.078125, mze: 0.03818181902170181, mae: 0.07062937319278717, time taken 3.2013826999999537
+L_break
+ADMM iteration: 81, Max iteration: 2, r-residual: 1.874103E-4, s-residual: 3.289821E-4, rho: 0.078125, mze: 0.03818181902170181, mae: 0.07062937319278717, time taken 3.0982742999999573
+L_break
+ADMM iteration: 82, Max iteration: 2, r-residual: 1.874337E-4, s-residual: 3.279071E-4, rho: 0.078125, mze: 0.03818181902170181, mae: 0.07062937319278717, time taken 3.1982208000000583
+L_break
+ADMM iteration: 83, Max iteration: 2, r-residual: 1.873179E-4, s-residual: 3.268383E-4, rho: 0.078125, mze: 0.03818181902170181, mae: 0.07062937319278717, time taken 3.030270900000005
+L_break
+ADMM iteration: 84, Max iteration: 2, r-residual: 1.873668E-4, s-residual: 3.257766E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.1574107999999796
+L_break
+ADMM iteration: 85, Max iteration: 2, r-residual: 1.871798E-4, s-residual: 3.247227E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.238970600000016
+L_break
+ADMM iteration: 86, Max iteration: 2, r-residual: 1.871004E-4, s-residual: 3.236750E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.1506083000000444
+L_break
+ADMM iteration: 87, Max iteration: 2, r-residual: 1.868649E-4, s-residual: 3.226335E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.0281523999999536
+L_break
+ADMM iteration: 88, Max iteration: 2, r-residual: 1.868470E-4, s-residual: 3.215996E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.0752924999999323
+L_break
+ADMM iteration: 89, Max iteration: 2, r-residual: 1.868145E-4, s-residual: 3.205716E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.1566237999999203
+L_break
+ADMM iteration: 90, Max iteration: 2, r-residual: 1.866017E-4, s-residual: 3.195496E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.1315612000000783
+L_break
+ADMM iteration: 91, Max iteration: 2, r-residual: 1.866325E-4, s-residual: 3.185351E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.07797220000009
+L_break
+ADMM iteration: 92, Max iteration: 2, r-residual: 1.864265E-4, s-residual: 3.175260E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.094249999999988
+L_break
+ADMM iteration: 93, Max iteration: 2, r-residual: 1.861996E-4, s-residual: 3.165236E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.0528021999999737
+L_break
+ADMM iteration: 94, Max iteration: 2, r-residual: 1.860155E-4, s-residual: 3.155277E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.1099001000000044
+L_break
+ADMM iteration: 95, Max iteration: 2, r-residual: 1.859919E-4, s-residual: 3.145373E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.203713999999991
+L_break
+ADMM iteration: 96, Max iteration: 2, r-residual: 1.858542E-4, s-residual: 3.135536E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.1082070999999587
+L_break
+ADMM iteration: 97, Max iteration: 2, r-residual: 1.855449E-4, s-residual: 3.125762E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.165856299999973
+L_break
+ADMM iteration: 98, Max iteration: 2, r-residual: 1.854340E-4, s-residual: 3.116038E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.19186789999992
+L_break
+ADMM iteration: 99, Max iteration: 2, r-residual: 1.853045E-4, s-residual: 3.106385E-4, rho: 0.078125, mze: 0.0379020981490612, mae: 0.07006993144750595, time taken 3.0710225000000264
+L_break
+ADMM iteration: 100, Max iteration: 2, r-residual: 1.850024E-4, s-residual: 3.096776E-4, rho: 0.078125, mze: 0.03804195672273636, mae: 0.07034964859485626, time taken 3.1350565999999844
+----Saving Model----
+Model Saved
+Testing Model
+----Loading Model----
+On Test Data: Mean Zero-one Error = 0.03580419719219208, Mean Absolute Error = 0.06937062740325928
+
+Process finished with exit code 0
+

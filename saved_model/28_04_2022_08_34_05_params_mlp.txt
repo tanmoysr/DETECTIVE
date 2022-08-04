@@ -1,0 +1,56 @@
+data: ../data/MITOR_Data.mat
+w_from_matlab: False
+break_on: True
+using_mlp: True
+Input Dimension: 1289
+Hidden Dimension: 200
+rho 10
+lr for ADMM: 0.08
+lr for MLP: 0.01
+alpha: 1
+beta: 0.01
+tol_L: 0.001
+tor_r: 1e-05
+tol_s: 1e-05
+tol_r_s: 10.0
+ADI: 27
+Max_iteration: 20
+
+file_name: 28_04_2022_08_34_05_params_mlp
+Training Model
+L_break
+ADMM iteration: 1, Max iteration: 9, r-residual: 1.414221E-1, s-residual: 1.420394E+0, rho: 5.0, mze: 0.01594405621290207, mae: 0.026153845712542534, time taken 173.1196488
+error: inf loss, please decrease learning rate!
+ADMM iteration: 2, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 403.18381580000005
+ADMM iteration: 3, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 378.63749369999994
+ADMM iteration: 4, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 364.7462772
+ADMM iteration: 5, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 376.83041300000014
+ADMM iteration: 6, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.6126496999998
+ADMM iteration: 7, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 369.4621089000002
+ADMM iteration: 8, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 370.24600199999986
+ADMM iteration: 9, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 369.9778191999999
+ADMM iteration: 10, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.02206869999964
+ADMM iteration: 11, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 372.33026819999986
+ADMM iteration: 12, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.02679409999973
+ADMM iteration: 13, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 372.5330125999999
+ADMM iteration: 14, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.51052290000007
+ADMM iteration: 15, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.9458301000004
+ADMM iteration: 16, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 375.0878617999997
+ADMM iteration: 17, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.47901439999987
+ADMM iteration: 18, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.8885768
+ADMM iteration: 19, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 375.77867570000035
+ADMM iteration: 20, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.6624759000006
+ADMM iteration: 21, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 372.4039337999993
+ADMM iteration: 22, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.63321280000036
+ADMM iteration: 23, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.78886370000055
+ADMM iteration: 24, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 373.44388909999907
+ADMM iteration: 25, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.9673461000002
+ADMM iteration: 26, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 374.7667627999999
+ADMM iteration: 27, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 5.0, mze: 0.05006993189454079, mae: 0.09440559148788452, time taken 372.50032140000076
+----Saving Model----
+Model Saved
+Testing Model
+----Loading Model----
+On Test Data: Mean Zero-one Error = 0.03286713361740112, Mean Absolute Error = 0.06349650025367737
+
+Process finished with exit code 0
