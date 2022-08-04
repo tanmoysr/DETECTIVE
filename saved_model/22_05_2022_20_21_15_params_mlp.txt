@@ -1,0 +1,28 @@
+model name: ../saved_model/22_05_2022_20_21_15_MITOR_V2_mlp.obj
+data: ../data/civil_datasets/2013-2014_uruguay.mat
+w_from_matlab: False
+break_on: True
+rho 10
+lr for ADMM: 0.08
+alpha: 1
+beta: 0.01
+tol_L: 0.001
+tor_r: 1e-05
+tol_s: 1e-05
+tol_r_s: 10.0
+ADI: 3
+Max_iteration: 20
+using_mlp: True
+Hidden Dimension 1: 200
+Hidden Dimension 2: 0
+optimzer for MLP: adam
+lr for MLP: 0.01
+adam_weight_decay: 0
+adam_amsgrad: False
+gradient_clipping: False
+N/A
+2022-05-22 20:21:16,643 : Model Initialized
+2022-05-22 20:21:17,533 : error: inf loss, adi 0, t 0, task 1, sample 20, Y_value 3.0, l_cum inf
+2022-05-22 20:24:19,939 : ADMM iteration: 1, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 10, mze: 0.024880383163690567, mae: 0.045933015644550323, time taken 183.2432558
+2022-05-22 20:24:20,017 : Training Complete
+2022-05-22 20:24:20,065 : On Test Data: Mean Zero-one Error = 0.009186603128910065, Mean Absolute Error = 0.017033493146300316
