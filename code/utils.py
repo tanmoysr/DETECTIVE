@@ -20,11 +20,11 @@ def set_loggger(log_name, filename):
     logger.addHandler(file_handler)
     return logger
 
-def data_formulate(data, adj_name = 'State_adj',test_size = 0.5, shuffle=False):
+def data_formulate(data, adj_name = 'State_adj', y_key = 'Y5', test_size = 0.5, shuffle=False):
     # State_adj
     x_data = np.array(data[
         'X'],dtype=np.float16)  # shape (26,550,1289) (Task ID (Spatial location), Sample (Temporal-Days), Features(TF-IDF)) # Civil Unrest Data
-    y_data = np.array(data['Y5'],dtype=np.float16)  # shape (26, 550) # Y5
+    y_data = np.array(data[y_key],dtype=np.float16)  # shape (26, 550) # Y5
     adj_data = np.array(data[adj_name],dtype=np.float16)  # shape (26, 26)
 
     y_data_3d = np.expand_dims(y_data, axis=2)

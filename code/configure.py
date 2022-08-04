@@ -1,25 +1,26 @@
 from datetime import datetime
 now = datetime.now()
 dt_string = now.strftime("%m_%d_%Y_%H_%M_%S")
-data_location = '../data/civil_datasets/2013-2014_uruguay.mat'
+
+# data
+data_argentina = '../data/civil_datasets/2013-2014_argentina.mat'
+data_brazil = '../data/civil_datasets/2013-2014_brazil.mat'
+data_chile = '../data/civil_datasets/2013-2014_chile.mat'
+data_columbia = '../data/civil_datasets/2013-2014_colombia.mat'
+data_mexico = '../data/civil_datasets/2013-2014_mexico.mat'
+data_paraguay = '../data/civil_datasets/2013-2014_paraguay.mat'
+data_uruguay = '../data/civil_datasets/2013-2014_uruguay.mat'
+data_venezuela = '../data/civil_datasets/2013-2014_venezuela.mat'
+data_flu_11_12 = '../data/flu_datasets/2011-2012_flu_normalized.mat'
+data_flu_13_14 = '../data/flu_datasets/2013-2014_flu_normalized.mat'
+
+data_location = data_flu_11_12
 '''
-../data/MITOR_Data.mat
-../data/flu_datasets/2011-2012_flu_data.mat
-../data/flu_datasets/2013-2014_flu_data.mat
-../data/flu_datasets/2011-2012_flu_normalized.mat
-../data/flu_datasets/2013-2014_flu_normalized.mat
-../data/civil_datasets/2013-2014_argentina.mat
-../data/civil_datasets/2013-2014_brazil.mat
-../data/civil_datasets/2013-2014_chile.mat
-../data/civil_datasets/2013-2014_colombia.mat
-../data/civil_datasets/2013-2014_mexico.mat
-../data/civil_datasets/2013-2014_paraguay.mat
-../data/civil_datasets/2013-2014_uruguay.mat
-../data/civil_datasets/2013-2014_venezuela.mat
 ../data/matlab_variables/W_init_train_brazil.mat
 ../data/matlab_variables/W_init_train_flu1_1_12.mat'
 '''
 train_weight_location = '../data/matlab_variables/W_init_train_flu_11_12.mat'
+
 w_from_matlab = False #
 break_on = True
 using_mlp = True

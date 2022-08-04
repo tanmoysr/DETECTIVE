@@ -58,7 +58,7 @@ def test(model_name):
 
     data = scipy.io.loadmat(config.data_location)
     [X_train, Y_train, X_test, Y_test, adj_data] = utils.data_formulate(data)
-    print('Data Loaded')
+    print('Data Loaded from {}'.format(config.data_location))
 
     model_location = '../saved_model/' + model_name
     print("Loading Model from {}".format(model_location))
@@ -66,6 +66,9 @@ def test(model_name):
     model_load_file = open(model_location, 'rb')
     MITOR_V2_trained = pickle.load(model_load_file)
     # # MITOR_V2_trained.to(device)
+    print(vars(MITOR_V2_trained))
+    if hasattr(MITOR_V2_trained, 'hidden_dim_2')!=True:
+        MITOR_V2_trained.mlp_model.hidden_dim_2= None
     [mze, mae, Y_pred] = MITOR_V2_trained.predict(X_test, Y_test, return_pred=True)
     test_str = "On Test Data: Mean Zero-one Error = {}, Mean Absolute Error = {}".format(mze, mae)
     print(test_str)
@@ -75,12 +78,9 @@ def test(model_name):
     # scipy.io.savemat('../data/debug_data/y_test_flu12wihY_woMLP.mat', Y_test_dict)
 
 if __name__ == '__main__':
-    # train()
-    test(input('What is the model name?: ')) # '03_08_2022_18_01_11_minMze_mlp.obj'
-    # 22_05_2022_20_21_15_MITOR_V2_mlp.obj for Uruguay with mlp
-    # 22_05_2022_20_34_34_MITOR_V2_mlp.obj for Brazil with mlp
-    # 22_05_2022_20_59_37_MITOR_V2.obj for Brazil without mlp
-    # 28_04_2022_08_34_05_MITOR_V2_mlp.obj for Brazil with mlp
+    train()
+    # test(input('What is the model name?: '))
+    test('04_07_2022_10_38_33_MITOR_V2_mlp500.obj') # Flu 11-12
 
 
 
