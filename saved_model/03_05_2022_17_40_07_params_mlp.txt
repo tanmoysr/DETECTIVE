@@ -1,0 +1,31 @@
+model name: ../saved_model/03_05_2022_17_40_07_MITOR_V2_mlp.obj
+data: ../data/civil_datasets/2013-2014_mexico.mat
+w_from_matlab: False
+break_on: True
+using_mlp: True
+Input Dimension: 1263
+Hidden Dimension: 200
+rho 10
+lr for ADMM: 0.08
+lr for MLP: 0.01
+alpha: 1
+beta: 0.01
+tol_L: 0.001
+tor_r: 1e-05
+tol_s: 1e-05
+tol_r_s: 10.0
+ADI: 3
+Max_iteration: 20
+
+Training Model
+error: inf loss, please decrease learning rate!
+ADMM iteration: 1, Max iteration: 20, r-residual: NaN, s-residual: NaN, rho: 10, mze: 0.08749999850988388, mae: 0.16602273285388947, time taken 314.3496706
+R_S_break due to NaN
+----Saving Model----
+Model Saved
+Testing Model
+----Loading Model----
+On Test Data: Mean Zero-one Error = 0.07772727310657501, Mean Absolute Error = 0.14954546093940735
+
+Process finished with exit code 0
+
