@@ -9,12 +9,14 @@ Paper: Chowdhury, Tanmoy, Yuyang Gao, and Liang Zhao. "Deep Multi-task Learning 
 Use [run_model.py](/main/run_model.py) to run the model and [configure.py](/main/configure.py) to configure the model.
 
 ### Data: 
-1. [civil Unrest Dataset](/data/civil_datasets): These datasets were obtained from eight different countries in Latin America, namely Argentina, Brazil, Chile, Colombia, Mexico, Paraguay, Uruguay, and Venezuela.
+1. [civil Unrest Dataset](/data/civil_datasets): 
+    a. [Multi-Scale Version](./data/civil_datasets/civil_scale/): These datasets were obtained from eight different countries in Latin America, namely Argentina, Brazil, Chile, Colombia, Mexico, Paraguay, Uruguay, and Venezuela.
+    b. [Multi-Class Version](./data/civil_datasets/civil_class/): These datasets were obtained from five different countries in Latin America, namely Brazil, Colombia, Mexico, Paraguay, and Venezuela.
 2. [Flu Dataset](/data/flu_datasets):
 The 2 datasets for influenza outbreaks in the U.S. use Twitter data as the data source.
-3. [Air Pollution Dataset](https://cs.emory.edu/~lzhao41/pages/dataset_pages/datasets/event_subtype/china_air.zip)
+3. [Air Pollution Dataset](./data/china_air): This data was processed from the air quality official [website](https://www.aqistudy.cn/historydata/) in China.
 
 ## Citation
-If you use this work, please cite the following dissertation.
+If you use the data or the model of this work, please cite the following dissertation.
 
 Chowdhury, Tanmoy. "Cross Domain Reasoning Based on Graph Deep Learning." PhD diss., George Mason University, 2023.
