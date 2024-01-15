@@ -9,8 +9,10 @@ Paper: Chowdhury, Tanmoy, Yuyang Gao, and Liang Zhao. "Deep Multi-task Learning 
 Use [run_model.py](/main/run_model.py) to run the model and [configure.py](/main/configure.py) to configure the model.
 
 ### Data: 
-1. [civil_datasets](/data/civil_datasets): These datasets were obtained from eight different countries in Latin America, namely Argentina, Brazil, Chile, Colombia, Mexico, Paraguay, Uruguay, and Venezuela.
-2. [flu_datasets](/data/flu_datasets):
+1. [Event Scale Forecasting](https://cs.emory.edu/~lzhao41/pages/dataset_pages/social_media_event_scale_forecasting_dataset.htm)
+2. [Event Subtype Forecasting](https://cs.emory.edu/~lzhao41/pages/dataset_pages/social_media_event_subtype_forecasting_dataset.htm)
+3. [civil_datasets](/data/civil_datasets): These datasets were obtained from eight different countries in Latin America, namely Argentina, Brazil, Chile, Colombia, Mexico, Paraguay, Uruguay, and Venezuela.
+4. [flu_datasets](/data/flu_datasets):
 The 2 datasets for influenza outbreaks in the U.S. use Twitter data as the data source. 
 
 ## Citation
