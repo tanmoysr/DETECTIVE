@@ -1,6 +1,7 @@
 # DETECTIVE
 Forecasting spatiotemporal social events has significant benefits for society to provide the proper amounts and types of resources to manage catastrophes and any accompanying societal risks. Nevertheless, forecasting event subtypes are far more complex than merely extending binary prediction to cover multiple subtypes because of spatial heterogeneity, experiencing a partial set of event subtypes, subtle discrepancy among different event subtypes, nature of the event subtype, and spatial correlation of event subtypes. We present DeEp mulTi-task lEarning for Spatio-Temporal inCompleTe qualItative eVent forEcasting (DETECTIVE) framework to effectively forecast the subtypes of future events by addressing all these issues. This formulates spatial locations into tasks to handle spatial heterogeneity in event subtypes and learns a joint deep representation of subtypes across tasks. This has the adaptability to be used for different types of problem formulation required by the nature of the events. Furthermore, based on the ``first law of geography'', spatially-closed tasks share similar event subtypes or scale patterns so that adjacent tasks can share knowledge effectively. To optimize the non-convex and strongly coupled problem of the proposed model, we also propose algorithms based on the Alternating Direction Method of Multipliers (ADMM). Extensive experiments on real-world datasets demonstrate the model's usefulness and efficiency.
-
+![DETECTIVE](model.png)
+Figure: Model Architecture
 ## Links
 Paper: Chowdhury, Tanmoy, Yuyang Gao, and Liang Zhao. "Deep Multi-task Learning for Spatio-Temporal Incomplete Qualitative Event Forecasting." Submitted on IEEE Transactions on Knowledge and Data Engineering. At the second stage of revision.
 
