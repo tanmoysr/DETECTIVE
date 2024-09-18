@@ -18,6 +18,6 @@ The 2 datasets for influenza outbreaks in the U.S. use Twitter data as the data 
 4. [Air Pollution Dataset](./data/china_air): This data was processed from the air quality official [website](https://www.aqistudy.cn/historydata/) in China.
 
 ## Citation
-If you use the data or the model of this work, please cite the following dissertation.
+If you use the data or the model of this work, please cite the following article.
 
-Chowdhury, Tanmoy. "Cross Domain Reasoning Based on Graph Deep Learning." PhD diss., George Mason University, 2023.
+Chowdhury, Tanmoy, Yuyang Gao, and Liang Zhao. "Deep Multi-task Learning for Spatio-Temporal Incomplete Qualitative Event Forecasting." IEEE Transactions on Knowledge and Data Engineering (2024).
